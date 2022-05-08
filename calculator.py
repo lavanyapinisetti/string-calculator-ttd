@@ -24,4 +24,4 @@ def _add_numbers_in_string(string):
 
 def _validate_numbers(numbers):
   if any(number < 0 for number in numbers):
-    raise ValueError
+    raise negatives not allowed
