@@ -28,5 +28,5 @@ def describe_string_calculator():
       assert add('//-\n1-2') == 3
 
     def rejects_negative_numbers():
-      assert raises(ValueError, add, '-1')
-      assert raises(ValueError, add, '1,-2')
+      assert raises(negatives not allowed, add, '-1')
+      assert raises(negatives not allowed, add, '1,-2')
